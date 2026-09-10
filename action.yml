@@ -10,6 +10,6 @@ branding:
   color: "blue"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: 'docker://ghcr.io/ambersun1234/puppeteer:latest'
   args:
     - ${{ inputs.args }}
